@@ -13,16 +13,42 @@ class ComposerStaticInitc077290659f14759af9f138674cbc216
     );
 
     public static $prefixLengthsPsr4 = array (
+        'U' => 
+        array (
+            'Ublaboo\\ApiRouter\\' => 18,
+        ),
         'P' => 
         array (
             'PHPStan\\' => 8,
         ),
+        'D' => 
+        array (
+            'Doctrine\\Common\\Lexer\\' => 22,
+            'Doctrine\\Common\\Cache\\' => 22,
+            'Doctrine\\Common\\Annotations\\' => 28,
+        ),
     );
 
     public static $prefixDirsPsr4 = array (
+        'Ublaboo\\ApiRouter\\' => 
+        array (
+            0 => __DIR__ . '/..' . '/ublaboo/api-router/src',
+        ),
         'PHPStan\\' => 
         array (
             0 => __DIR__ . '/..' . '/phpstan/phpstan-nette/src',
+        ),
+        'Doctrine\\Common\\Lexer\\' => 
+        array (
+            0 => __DIR__ . '/..' . '/doctrine/lexer/lib/Doctrine/Common/Lexer',
+        ),
+        'Doctrine\\Common\\Cache\\' => 
+        array (
+            0 => __DIR__ . '/..' . '/doctrine/cache/lib/Doctrine/Common/Cache',
+        ),
+        'Doctrine\\Common\\Annotations\\' => 
+        array (
+            0 => __DIR__ . '/..' . '/doctrine/annotations/lib/Doctrine/Common/Annotations',
         ),
     );
 
@@ -133,6 +159,7 @@ class ComposerStaticInitc077290659f14759af9f138674cbc216
         'Nette\\Bridges\\HttpDI\\SessionExtension' => __DIR__ . '/..' . '/nette/http/src/Bridges/HttpDI/SessionExtension.php',
         'Nette\\Bridges\\HttpTracy\\SessionPanel' => __DIR__ . '/..' . '/nette/http/src/Bridges/HttpTracy/SessionPanel.php',
         'Nette\\Bridges\\MailDI\\MailExtension' => __DIR__ . '/..' . '/nette/mail/src/Bridges/MailDI/MailExtension.php',
+        'Nette\\Bridges\\ReflectionDI\\ReflectionExtension' => __DIR__ . '/..' . '/nette/reflection/src/Bridges/ReflectionDI/ReflectionExtension.php',
         'Nette\\Bridges\\SecurityDI\\SecurityExtension' => __DIR__ . '/..' . '/nette/security/src/Bridges/SecurityDI/SecurityExtension.php',
         'Nette\\Bridges\\SecurityTracy\\UserPanel' => __DIR__ . '/..' . '/nette/security/src/Bridges/SecurityTracy/UserPanel.php',
         'Nette\\Caching\\Cache' => __DIR__ . '/..' . '/nette/caching/src/Caching/Cache.php',
@@ -325,6 +352,16 @@ class ComposerStaticInitc077290659f14759af9f138674cbc216
         'Nette\\PhpGenerator\\Traits\\NameAware' => __DIR__ . '/..' . '/nette/php-generator/src/PhpGenerator/Traits/NameAware.php',
         'Nette\\PhpGenerator\\Traits\\VisibilityAware' => __DIR__ . '/..' . '/nette/php-generator/src/PhpGenerator/Traits/VisibilityAware.php',
         'Nette\\PhpGenerator\\Type' => __DIR__ . '/..' . '/nette/php-generator/src/PhpGenerator/Type.php',
+        'Nette\\Reflection\\Annotation' => __DIR__ . '/..' . '/nette/reflection/src/Reflection/Annotation.php',
+        'Nette\\Reflection\\AnnotationsParser' => __DIR__ . '/..' . '/nette/reflection/src/Reflection/AnnotationsParser.php',
+        'Nette\\Reflection\\ClassType' => __DIR__ . '/..' . '/nette/reflection/src/Reflection/ClassType.php',
+        'Nette\\Reflection\\Extension' => __DIR__ . '/..' . '/nette/reflection/src/Reflection/Extension.php',
+        'Nette\\Reflection\\GlobalFunction' => __DIR__ . '/..' . '/nette/reflection/src/Reflection/GlobalFunction.php',
+        'Nette\\Reflection\\Helpers' => __DIR__ . '/..' . '/nette/reflection/src/Reflection/Helpers.php',
+        'Nette\\Reflection\\IAnnotation' => __DIR__ . '/..' . '/nette/reflection/src/Reflection/IAnnotation.php',
+        'Nette\\Reflection\\Method' => __DIR__ . '/..' . '/nette/reflection/src/Reflection/Method.php',
+        'Nette\\Reflection\\Parameter' => __DIR__ . '/..' . '/nette/reflection/src/Reflection/Parameter.php',
+        'Nette\\Reflection\\Property' => __DIR__ . '/..' . '/nette/reflection/src/Reflection/Property.php',
         'Nette\\Routing\\Route' => __DIR__ . '/..' . '/nette/routing/src/Routing/Route.php',
         'Nette\\Routing\\RouteList' => __DIR__ . '/..' . '/nette/routing/src/Routing/RouteList.php',
         'Nette\\Routing\\Router' => __DIR__ . '/..' . '/nette/routing/src/Routing/Router.php',
